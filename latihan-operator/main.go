@@ -23,6 +23,7 @@ func main() {
 	umurSaya +=5
 	umurKakak +=5
 
-	fmt.Printf("Umur saya 5 tahun lagi adalah : %d\n", umurSaya)
+	fmt.Printf("Umur saya 5 tahun lagi adalah : %d\n", umurSaya)	
 	fmt.Printf("Umur kakak 5 tahun lagi adalah : %d\n", umurKakak)
+	fmt.Println()
 }
