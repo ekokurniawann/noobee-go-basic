@@ -37,7 +37,7 @@ var printCar2 = func() string {
 	return deskripsi
 }
 
-// Cara ke empat kita membuat method
+// Cara ke empat dengan membuat method
 func (c *Car) printCar3() string {
 	name := c.data["name"]
 	color := c.data["color"]
@@ -47,6 +47,7 @@ func (c *Car) printCar3() string {
 }
 
 func main() {
+	// Implementasi struct untuk cara pertama
 	car := map[string]string{
 		"name": "BMW",
 		"color": "Black",
@@ -65,7 +66,7 @@ func main() {
 	fmt.Println(message2)
 
 	// Cara ke empat 
-	// Kita implementasi struct
+	// Implementasi struct untuk cara ke empat
 	car1 := Car{data: map[string]string{"name": "BMW", "color": "Black"}}
 	
 	message3 :=car1.printCar3()
